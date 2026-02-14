@@ -1,0 +1,6 @@
+# Strict: only attestations and README go up
+*
+!.gitignore
+!README.md
+!*/
+!**/*.attestation.json

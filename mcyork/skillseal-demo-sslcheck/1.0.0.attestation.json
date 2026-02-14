@@ -1,0 +1,28 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDZ0wAKCRB+2Wgv9kKG\n0N//AQC/NzA9RR4bX4nuDffeVQcP4/RTUi99SzUe9mi+s2bDxgD/aW3QGpOMMo7G\n+eNIz6znTYEDI8q7Ovx+Va1bLPvGtww=\n=cQ1T\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-14T20:23:47.765Z",
+      "scope": "full-review",
+      "statement": "Reviewed all instructions. No malicious patterns."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "8842241384741af92689ac72a96ea083a6c4afdb",
+      "digests": {
+        "manifest_sha256": "67e870868e0f8d730ba8daad7049cdb52ff78010180745f8e87680bf5808fdd6",
+        "skill_md_sha256": "12a20df385b320a24b91bd5abd2a0660d893e739afb724812e7d8a63cbbf857a"
+      },
+      "repository": "github.com/mcyork/skillseal-demo-sslcheck",
+      "skill": "skillseal-demo-sslcheck",
+      "version": "1.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}
