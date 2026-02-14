@@ -1,0 +1,29 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQgAKCRB+2Wgv9kKG\n0B7xAP4ql+O0SN1rMhgn8B6wAKxmUIydAwRgO+hXI31S4oC7aAEAiQPkjaw2cCgp\nVu1e2Y1zEHjUdASldZ+43ffruyo2dgI=\n=TZbv\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-14T20:59:46.167Z",
+      "scope": "full-review",
+      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "Prompting",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQAAKCRB+2Wgv9kKG\n0JCPAQCQaNv5u58wz+uU5xZtg7XSFqqgUp8w8plb89xHQHtwRQD5AQ5TpQ3hblVE\nKPQwP3XGRrmImnOwmKsut2gR0smFTAI=\n=OahC\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-14T20:59:44.738Z",
+      "scope": "full-review",
+      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "a8025f73f53f501096cf82e1a2ed24ace8eada737544dc0902526f87926cf973"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "Telos",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}

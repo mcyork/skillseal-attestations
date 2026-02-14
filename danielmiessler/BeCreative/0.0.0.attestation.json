@@ -1,0 +1,29 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRgAKCRB+2Wgv9kKG\n0N+4AQDwrmDr0llVwsHVCTvXqiQ/Jmrsp2uZXjEqltrFHCQ1YQD/VJag8vz4uScp\nDcsYbhCEejb8X5poG9VMWy3Mnvji0A0=\n=Sa0d\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-14T20:59:50.094Z",
+      "scope": "full-review",
+      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "0973059d8f3c2c57d7641c08c0517f61f6d323d5ae94e337e5bd60c2c966b976"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "BeCreative",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}

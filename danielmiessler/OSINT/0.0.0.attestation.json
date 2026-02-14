@@ -1,0 +1,29 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRAAKCRB+2Wgv9kKG\n0ASvAP9b2viiiiH6U1QDMPhl5xuybCHNuiF6/EgjO9F5tumODwD/RRZFpWJtxu44\nXcF3A8d8p07fTEbpIyFvd46PTydiBgs=\n=8HnN\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-14T20:59:48.009Z",
+      "scope": "full-review",
+      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "ce3efa0257211b4c2152b178b5322692b83e36cb302075acb9e926c4b86247a8"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "OSINT",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}
