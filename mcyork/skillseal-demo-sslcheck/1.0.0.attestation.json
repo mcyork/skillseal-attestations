@@ -1,10 +1,10 @@
 {
   "format": "skillseal-attestation-bundle/v1",
   "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDZ0wAKCRB+2Wgv9kKG\n0N//AQC/NzA9RR4bX4nuDffeVQcP4/RTUi99SzUe9mi+s2bDxgD/aW3QGpOMMo7G\n+eNIz6znTYEDI8q7Ovx+Va1bLPvGtww=\n=cQ1T\n-----END PGP SIGNATURE-----",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDmEAAKCRB+2Wgv9kKG\n0BdyAP9PAhWo+ZQulZlx+oC5Kc8BtfSbxgDVUlvcVcn7cnl+rQEAy/XIymbVKkQr\nf0Lqw2bWBCqTOTwCXQZVEedGee2suQ0=\n=sNIe\n-----END PGP SIGNATURE-----",
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:23:47.765Z",
+      "date": "2026-02-14T21:16:00.793Z",
       "scope": "full-review",
       "statement": "Reviewed all instructions. No malicious patterns."
     },
@@ -14,12 +14,13 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "8842241384741af92689ac72a96ea083a6c4afdb",
+      "commit": "d5f42e935e4fd832304a3420752095fed434a5b0",
       "digests": {
-        "manifest_sha256": "67e870868e0f8d730ba8daad7049cdb52ff78010180745f8e87680bf5808fdd6",
-        "skill_md_sha256": "12a20df385b320a24b91bd5abd2a0660d893e739afb724812e7d8a63cbbf857a"
+        "manifest_sha256": "c83f94798562b25c89d334c3d8c300d66994d53f01ba0ce7008fc74cfc4c08cb",
+        "skill_md_sha256": "0264ef854808ee0c503ea3512e8a6b9ac55640d7e553581b00a4b1e7d4ca68be"
       },
       "repository": "github.com/mcyork/skillseal-demo-sslcheck",
+      "signed": true,
       "skill": "skillseal-demo-sslcheck",
       "version": "1.0.0"
     },
