@@ -1,29 +1,29 @@
 {
-  "schema_version": "0.1.0",
   "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZEdvgAKCRB+2Wgv9kKG\n0PfGAP4qeO9uyrBzXFaipbAWqknC6hpZFH0k0ago4R5aUH2utwD+NeUO6LUmm4Qr\n+NasG45H1Y+tI6QTi03gspgES+YRGwE=\n=fUan\n-----END PGP SIGNATURE-----",
   "statement": {
-    "type": "https://skillseal.dev/attestation/review/v1",
-    "subject": {
-      "skill": "skillseal-demo-plugin",
-      "version": "1.0.0",
-      "signed": true,
-      "repository": "github.com/mcyork/skillseal-demo-plugin",
-      "commit": "61f027aa9ca03086e5c6b9d4267800f008f55317",
-      "digests": {
-        "skill_md_sha256": "bea2229b5ddaa2cc294333f1abc04c3a46ec9aca956310a1e253ca9f7c43dc62",
-        "manifest_sha256": "504861f3a997aa1cc6f941a8f562359710f1d2952d30a745529e86bb37f75246"
-      }
+    "attestation": {
+      "date": "2026-02-15T01:13:34.774Z",
+      "scope": "full-review",
+      "statement": "Reviewed all plugin contents. SSL certificate checker skill is read-only and safe. No malicious patterns."
     },
     "reviewer": {
-      "name": "Ian McCutcheon",
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
       "github": "mcyork",
-      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0"
+      "name": "Ian McCutcheon"
     },
-    "attestation": {
-      "scope": "full-review",
-      "statement": "Reviewed all plugin contents. SSL certificate checker skill is read-only and safe. No malicious patterns.",
-      "date": "2026-02-15T00:57:00.000Z"
-    }
-  },
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZEcMQAKCRB+2Wgv9kKG\n0DNOAQD+8Y6UZhQSNJ/heUfCmTQvjcOvgLAvXlfmj3dEw8qbggD8Cte7nSkGAVaH\nfACFEYYRcfl/zklZnfz7/Wqr29ZSggY=\n=gmqJ\n-----END PGP SIGNATURE-----"
+    "subject": {
+      "commit": "61f027aa9ca03086e5c6b9d4267800f008f55317",
+      "digests": {
+        "manifest_sha256": "504861f3a997aa1cc6f941a8f562359710f1d2952d30a745529e86bb37f75246",
+        "skill_md_sha256": "bea2229b5ddaa2cc294333f1abc04c3a46ec9aca956310a1e253ca9f7c43dc62"
+      },
+      "repository": "github.com/mcyork/skillseal-demo-plugin",
+      "signed": true,
+      "skill": "skillseal-demo-plugin",
+      "version": "1.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
 }
