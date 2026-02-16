@@ -4,18 +4,18 @@
   "signatures": [
     {
       "type": "gpg",
-      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEOgAKCRB+2Wgv9kKG\n0KNNAQDRgx+HdVggEwmTZGhvtjDWo6AlUWNVmfQAWrS813zn2wD/Qsxddf9iynhs\nMVgzsxx+wQpgExGaeLK2XGRA6TUl/Ak=\n=YtuU\n-----END PGP SIGNATURE-----"
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOMvQAKCRB+2Wgv9kKG\n0NpEAQCKMlKTq0VUteeQwiT2Em/aWI5S6kF4+Wn7vS84acl2aQEAsztOXLthaSgG\nqPeIVb2/Htx0Yd4/zKnSU53Yb8J64wk=\n=NT93\n-----END PGP SIGNATURE-----"
     },
     {
       "type": "ssh",
-      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQO0KGMD687QXl6N1qXDuyHklNdbjJFrbwwYDmd8U9GOoBaNJLXsdQ7k0pK\nEW8HCtxhML27Ni6TqAMxm/dDlL0ww=\n-----END SSH SIGNATURE-----"
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQAFzcd+E+QlNY9Btijb0Hh1ADdgtQohcFWwqQjOioTPZBjYDmRb8BvwF38\n9wV9uRPOxMsfk3X4s4ahWJ840CmgY=\n-----END SSH SIGNATURE-----"
     }
   ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T20:55:22.955Z",
+      "date": "2026-02-16T21:31:41.710Z",
       "scope": "full-review",
-      "statement": "Reviewed all plugin contents including commands and skills. Safe. Multi-key re-attestation."
+      "statement": "Full review of demo-plugin v1.0.0 — examines all instructions, plugin commands, verifies no injection or exfiltration patterns."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -23,10 +23,10 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "61f027aa9ca03086e5c6b9d4267800f008f55317",
+      "commit": "d8cab45b09760604da189048140578da64012189",
       "digests": {
-        "manifest_sha256": "504861f3a997aa1cc6f941a8f562359710f1d2952d30a745529e86bb37f75246",
-        "skill_md_sha256": "bea2229b5ddaa2cc294333f1abc04c3a46ec9aca956310a1e253ca9f7c43dc62"
+        "manifest_sha256": "0377a1a8bb929c6ffcb8b6a89c05334b1071181556a4425969e2166ee3cf459d",
+        "skill_md_sha256": "37f9308121735df78189e0b67c4d6f65443191dea00b1d0967420709390b4171"
       },
       "repository": "github.com/mcyork/skillseal-demo-plugin",
       "signed": true,
