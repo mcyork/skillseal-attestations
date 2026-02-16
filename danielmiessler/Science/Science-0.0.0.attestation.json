@@ -1,0 +1,29 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyrwAKCRB+2Wgv9kKG\n0IRrAP9ZhqcZEnuZiNdeZ4hSsGdHul0ueREVXYlV+hIF6ehMlQD/Wo3VzwX74Zo8\n8esjPpLbe73kLvQq3Dg0et6sZ8rwDgE=\n=Elwd\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-16T10:34:23.340Z",
+      "scope": "full-review",
+      "statement": "Reviewed. No issues found."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "257252cc3329e699f22bfcd9fb73a0aa280979b239f47ff542567c2994fbd8e7"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "Science",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}

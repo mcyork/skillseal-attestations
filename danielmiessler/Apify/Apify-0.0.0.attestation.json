@@ -1,0 +1,29 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.1.0",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyigAKCRB+2Wgv9kKG\n0HLyAQCShzz+QLNz2zY73QasjO6lVHLc8gwUbrlduIODrj34NgEAmR8k9XCJMFFF\n92xYjIFANsuRJbeN3UxDP6Ake4onsgI=\n=APll\n-----END PGP SIGNATURE-----",
+  "statement": {
+    "attestation": {
+      "date": "2026-02-16T10:33:46.721Z",
+      "scope": "full-review",
+      "statement": "Reviewed. No issues found."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "1671a9a4dd649a2da3c778ba9babcf8aa9520cc5ce670005b39e88a526148593"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "Apify",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}
