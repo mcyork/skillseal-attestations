@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyrQAKCRB+2Wgv9kKG\n0HY6AP9y8UagGNfCtvGTRmSly7K/oNh/BCcI5uz7TRcDoTFsjAD+JcP0sF8DgBh+\n8gKKsOT/lHnjrp5cuQAV9GLsUfj3LAc=\n=sQne\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEagAKCRB+2Wgv9kKG\n0CBPAQDkPGiSA0KZqqfKCRSbR8XU1GWqkzswugx6b9IEpfEEYQEAprcrwhqZEOW2\nmw3+5BI6PJWqbCWsYULkB+cxnccbFQo=\n=DSkP\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQIiGbl8IXsRDZyDxst6mHJeftICEibWPhK5zAZuQO6T2a6PcOcMJpOxEfA\nashgH4wDIHV8j7ujD6nst4l6UcAws=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:34:21.134Z",
+      "date": "2026-02-16T20:56:10.686Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "52519e1cf542ba88a27ae16a72f55b33082bbb081d81e026bb7e2ec38d8af4d2"
+        "manifest_sha256": "71aecb3050ced1cac8e5a5edb6f25cf2c8f0f6aeed60e0b6315e3490f2613cfa",
+        "skill_md_sha256": "31dbd2f7c8754ec59aac58a2f4dd3e9c623cfadea3be8f53491fc95e489ef5c0"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Recon",
       "version": "0.0.0"
     },

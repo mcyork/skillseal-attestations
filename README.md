@@ -4,7 +4,9 @@ Third-party attestation bundles for [SkillSeal](https://github.com/mcyork/skills
 
 ## What is this?
 
-Each `.attestation.json` file is a GPG-signed, content-addressed statement vouching for a specific version of a skill package. Attestations are independent of the skill author — the reviewer creates and hosts them here.
+Each `.attestation.json` file is a multi-key-signed, content-addressed statement vouching for a specific version of a skill package. Attestations are independent of the skill author — the reviewer creates and hosts them here.
+
+As of v0.2.0, attestation bundles carry multiple signatures (GPG + SSH) in a `signatures[]` array. Verification requires only one valid signature.
 
 ## Directory convention
 
@@ -27,8 +29,19 @@ skillseal verify ~/path/to/skill --attestation ./mcyork/skillseal-demo-sslcheck/
 
 - **Name:** Ian McCutcheon
 - **GitHub:** [mcyork](https://github.com/mcyork)
-- **GPG Key:** `7097CE1EF54E0808FD3855427ED9682FF64286D0` ([public key](https://github.com/mcyork.gpg))
+- **Keys:**
+  - GPG: `7097CE1EF54E0808FD3855427ED9682FF64286D0` ([public key](https://github.com/mcyork.gpg))
+  - SSH: `SHA256:vZcivMOtxMdRjvcyGpNSjECXhb/wspMSsHO/bfPXBmQ` (Ed25519)
 
 ## Format
 
 See the [attestation format spec](https://github.com/mcyork/skillseal/blob/main/spec/attestation-format.md).
+
+## Attested Skills
+
+### mcyork (self-authored, signed)
+- `skillseal-demo-sslcheck` v1.0.0
+- `skillseal-demo-plugin` v1.0.0
+
+### danielmiessler (third-party, unsigned)
+- 37+ PAI skills attested with full-review scope

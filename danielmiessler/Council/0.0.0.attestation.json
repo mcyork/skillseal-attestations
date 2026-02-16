@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQQAKCRB+2Wgv9kKG\n0EIOAP9bc35CMqn24pXSGzkYpBP+WytmJgQ5BptMmX5OaHU+2QD9H3ITtbRwgY7G\nai5Gg/Jb5VOdiKBwmR+vp/K8UfqvYAo=\n=kR3X\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZwAKCRB+2Wgv9kKG\n0J5TAPwKkAXglCL98cmRV1waSof/10Qa7D3iCdOP8wiyao5+HAD/RdlZn14oBBp5\n4R4mUgJt1pAZQvvYTBthzIz/oEh3zgo=\n=wMuK\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQBflgZZcWENNSATxf85L6sS8huBziEsNzQDlPQFw+IeXDGiyREWEkQmUNL\nqepSM5wEScwzkdA6AEf5ts1BXtxw8=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:45.920Z",
+      "date": "2026-02-16T20:56:06.999Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "95a04df1b3f213c9ce74b89faf5e3dafcedcd85e23eec760d90ffe796ef5fb0c"
+        "manifest_sha256": "31c87d9ff3d2daa8d7974a5098aec3c74240b67f030dca5b003e9f77eab28a7f",
+        "skill_md_sha256": "52e0dc80b8994728a9d09f3b395af3b290a8f65ab45ecb0df96fa8eddf5b2335"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Council",
       "version": "0.0.0"
     },

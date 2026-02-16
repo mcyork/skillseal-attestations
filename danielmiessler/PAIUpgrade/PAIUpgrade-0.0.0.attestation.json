@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLypgAKCRB+2Wgv9kKG\n0MsyAP9UvLV8xKbIF3yKTTKZ3oJhbI/LRV6giaKNLZhAARwGCwD7BUP/N5NO1VRq\nJhsVvl5ze5t42PL5WZQmyXoWgzuI4g4=\n=BZHD\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEaQAKCRB+2Wgv9kKG\n0Ci6AP44RE6vIgWkxDwjNUfu1G3iJq1BaI+a/+2YFzDnCG6q+AEA5mEsmWPQD5Eq\n8a38PIvQx9M2pJcNDh+0vHnwwe4lWgA=\n=ihqy\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQHIXMh4gSIVdOTSu1awptIZl2gkwVeHKdtpDaHnJjpFyYalizCxQvYtlK/\n76mRLyxqmMsBSpm6A32WsH74B77AI=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:34:14.180Z",
+      "date": "2026-02-16T20:56:09.416Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "40ce0d9ce14139f800df7ba1775064b4286c63de11a135e855a13890d49af3a5"
+        "manifest_sha256": "03152c3f9cb1ef347af5fff44e769184bcc9c4c1b12aea5fc0f598af1e01cefd",
+        "skill_md_sha256": "e546706f7873614abd97f2f58285bf88dfce63d032ac97aab012c2822d4a3d90"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "PAIUpgrade",
       "version": "0.0.0"
     },

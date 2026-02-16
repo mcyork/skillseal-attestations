@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLypQAKCRB+2Wgv9kKG\n0KolAQCLYAysJIEzK0OZwmC0XCZv+8GE0jHD/SDq21z9oqtEcAD/f70PNpyojuez\nLeXDCE+hbzXaCFnI6uxT4EkXk1HzqAw=\n=UQS8\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZwAKCRB+2Wgv9kKG\n0ASbAQCC+g2gUOu2drjnS6puWhEzWT6wOhIpJfpa61qwTJsTggD9E65/+eqUnP/f\nv29QmSgjMoOBTzLOETITPFksgexf2QE=\n=AcTK\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQEM5/r+KLt4ZB282I4v9zmyexZDjrCWDGcLdQaCUy17+7OVnwYI5AbJgRV\nWaNdw1jGCCuofMfAaSdn7umgjhlwk=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:34:13.192Z",
+      "date": "2026-02-16T20:56:07.932Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "831dbed4bffebf38c95c3a7266de5d5deb655ed035ec643e64675f60b7be23d9"
+        "manifest_sha256": "d2bac0babf5129cd7af59fd03ab062f89121f9033c1c92eaece0ec3a0fcb698d",
+        "skill_md_sha256": "53067ece01b1c73cb1a9650d3e83c5e3329c9cdfb15a46e6b8c8178f2035125c"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Evals",
       "version": "0.0.0"
     },

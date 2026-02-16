@@ -1,12 +1,12 @@
 {
   "format": "skillseal-attestation-bundle/v1",
   "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyHwAKCRB+2Wgv9kKG\n0M5OAQD/ATtJ2lsY56mO2JxSSg0WTdhOMdobTW4Dkf925a7iKQD/ZsgkEjr15OBD\n2s5VhwuavP8euoXCeKPsFc63fsDCJAY=\n=CVSu\n-----END PGP SIGNATURE-----",
+  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRwAKCRB+2Wgv9kKG\n0GqdAQCXOGlJFcVnMTkwFrm4K4CVz3oi65Ov2MnVepqPs1Rv/AEAyvwhnJrKSEPH\niJWh6G1DrxWqVSWdGh5Rxs79cnWnpQQ=\n=M5rI\n-----END PGP SIGNATURE-----",
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:31:59.561Z",
+      "date": "2026-02-14T20:59:51.732Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,10 +14,10 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
+      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
         "manifest_sha256": null,
-        "skill_md_sha256": "b4d3ae4210c67dabfca7b9ece91e6bff86802ea8cce429df31ded59f948902c3"
+        "skill_md_sha256": "82e4f746e8f55011f43de3d841df1459da0ded163a8161ad753484a33d1a4f5d"
       },
       "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
       "signed": false,

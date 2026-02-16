@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyigAKCRB+2Wgv9kKG\n0CG7AQCZjZzYQ9BFbhcjIX8ozLbIWYO4B3LMzjfzg+oRNpFOOwEAj8DqzWpMEFIT\n6pHVYOabnB101aZ2Z2dToDSrKpB++QY=\n=EFgU\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZQAKCRB+2Wgv9kKG\n0PYJAQDRuLtcAYlp/9kWGwflpfvUnXHYBRbPwhbASKl7nhnMRQEAubhGl6Q+9TfJ\nolI2z+/zNILsJp0DO3Tpxor9WbSQyQk=\n=P9e/\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQHF+IK0k39oADB4LUljsrefPtXNWROFHQyNfOMT3OQRtrheKBI0IgZOMrN\n4wyMeTv435VEduanmKFzZXz9AdVws=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:33:46.014Z",
+      "date": "2026-02-16T20:56:05.316Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "c21e9ead880558f5da0996b8c4a0f383baa82b87c63b26237af34f31ae0e70c8"
+        "manifest_sha256": "cdb29e98ff306133d695a7a38276def862daad9f55dc4c5095116d87079e3dff",
+        "skill_md_sha256": "11bd094ba057a57910e99b65e587f787f2153580066fb0a75fe0c86edb4882d4"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Aphorisms",
       "version": "0.0.0"
     },

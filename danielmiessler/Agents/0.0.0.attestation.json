@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQwAKCRB+2Wgv9kKG\n0LlRAP0YKaMe3ah1EQJJhlyhamVu+xv3MrSMOCRdF7RYobVNiwEAznjQpBFnSlnQ\npC/R/fmgMuH1YIge+9epzBaL26S18AY=\n=Rqep\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZAAKCRB+2Wgv9kKG\n0DmBAQDKhkYkuN07pECjs9/nBzKRrFo2c4EkA81vXCIoyNH9VAD8Dfh6Y7F6/+ki\nV4yGY/tcldQpdpckCuzA8pc/mnD0Xgg=\n=zxuL\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQMrKauKAqznPqGsmNwOQTYwf2WmyU5y0to/Se0C/4rD0INIzg8nZx/iJde\niOQ3ACVJFYx8yvWqMLfOI1L92megY=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:47.766Z",
+      "date": "2026-02-16T20:56:04.799Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "7dc275659dc98126984b3326cb909abdd8a9f76db6b8ee3919d63a63d2ee6b29"
+        "manifest_sha256": "e91d31f61ecec5191a481e1ab9db52388ebe68ca59113ac0e4768ac10a56536d",
+        "skill_md_sha256": "3151c6061402b542e01fcf658f6f4de477acd1fe9e6e37d5dc466013b86a8e00"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Agents",
       "version": "0.0.0"
     },

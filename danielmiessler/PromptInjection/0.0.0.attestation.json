@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRgAKCRB+2Wgv9kKG\n0AtjAQCRiqpxTSk+r57q2bcvj2WS4fbk/14waekUTb2Y4miKKAEA5Oxd+tCu5tJP\nwhQZAxLq4C+5s+tNRDHP/ZiP+HPGRgs=\n=BU8g\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEagAKCRB+2Wgv9kKG\n0FLcAQCHEd1jAD8KbFa3EUBXs2q173Sn1FAtKFQUHPSamhbgAQD/S2xg9uXVikCG\nXfJ7Ui1InrgQX3TuVF7SWE5wmB/PfQU=\n=HPE0\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQKbpz/s+O9LDF+Fqd2G8oXF4Zqu+0UmprVL3eVEDa7eyKEkyRQdXyOi9eU\n8tBVMfhl9b9bGnQrVBuCni0D07Uwo=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:50.322Z",
+      "date": "2026-02-16T20:56:10.461Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "7dfc268754f9b0be040f51c838c73b2d5b506f9c606c0685d948f54a940e2434"
+        "manifest_sha256": "ddd9beeb78c0f0e99e4cb3d3a04a28b5e3e4fb68d766011834003c1e18dde172",
+        "skill_md_sha256": "a59fc8147a876207f373a9a3af8f9a897c90da5517f571856deb79d63f9b1e17"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "PromptInjection",
       "version": "0.0.0"
     },

@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQgAKCRB+2Wgv9kKG\n0NrrAQDPyOSHf2a8DLtSXCMUtnacZgK6stGiVIM/Zk0WJZJ9HwEA5G8cRzLZb/pv\np/1TdRF6ctINwmXevqN3spwo8qV9CQw=\n=MhXa\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZQAKCRB+2Wgv9kKG\n0CgXAQDAuaroR83CV2xjcDRXAMmTDvWFMzlwLvkZuFBRNmG0nQEA8zJz1WZiE+Qq\nmXtiHTodC6DaVmj8aXBf3CYoXEQeQgI=\n=NBsC\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQPDFaFOQ78Qv60GPTuIo2b9yMPsiux7QdU9pkkxHxiw2g1eDawc2iC6lUm\nuonoW54AF0Jz7Ba2JgBGyKONGBNwc=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:46.632Z",
+      "date": "2026-02-16T20:56:05.790Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "b4aa67b40ebd805cf99e6303a815c12029ab0a90640c83068ad7bb9666ea609a"
+        "manifest_sha256": "8c86ee97e6514e43a14b49ba150dfde3bbb3f4d0afa6ca826f7852d600339214",
+        "skill_md_sha256": "fdef6611827fc33818aaae9638520a932fa76c21571785e27dc107f78456e979"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Art",
       "version": "0.0.0"
     },

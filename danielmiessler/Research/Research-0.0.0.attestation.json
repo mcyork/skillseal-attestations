@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyDAAKCRB+2Wgv9kKG\n0BhcAQDnYboIsfl1C6bVSirt5Pblf1TmWfjFoCHM8zhxPO4AMgEAhEVwCyWGmpXw\nMebcClmc7Naa2VqDXyCP6ojUfNkNkgM=\n=80n0\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEawAKCRB+2Wgv9kKG\n0MtsAP0b0sMOh/t/sCv55tGHLZNystb6CLnADvxKnGrQZQ1dSQD/RnVAyZABlc/e\nFGG4GJSX6ed4zlEX+EnRSHWvuEnKWQk=\n=yK/r\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQPm3B4hzo9y6cxWVgsUpgBzq7isezFrxTum9sG7oS0aUPayho1knFIPP73\nBZfQUgmXmVM0WvEok10u5hKWmsuwA=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:31:40.304Z",
+      "date": "2026-02-16T20:56:11.380Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "8ac223a72b6b9cf36dcfa7ae8415e224db2af8a4762e89bdf6bead92ec78c620"
+        "manifest_sha256": "5c78b01baf7d0883d535630534ad49dbb3e702348961789a09a49c89264af34a",
+        "skill_md_sha256": "20f9ad8cd56f15f404045eda8ff730bccec259a56583cb4664758bd13f68b0ba"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Research",
       "version": "0.0.0"
     },

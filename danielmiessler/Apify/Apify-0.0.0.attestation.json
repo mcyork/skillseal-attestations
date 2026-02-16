@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyigAKCRB+2Wgv9kKG\n0HLyAQCShzz+QLNz2zY73QasjO6lVHLc8gwUbrlduIODrj34NgEAmR8k9XCJMFFF\n92xYjIFANsuRJbeN3UxDP6Ake4onsgI=\n=APll\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZQAKCRB+2Wgv9kKG\n0BWWAQCBm6muRJGw4XASrLcmncYwG7lawhXmgKpGExQn1gjWVwD/TLxHumm4fdGz\ntlXm3hTciLYdaef3B3g/7bZDmr56vg4=\n=fvuh\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQLvGdzg5s1+wgn8HLy7NkqIabtzzjiImwPuzLovICO4l/CukzPxcfSs7If\nV0YP6keQSWcYJl19jiYIEVnNJebQQ=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:33:46.721Z",
+      "date": "2026-02-16T20:56:05.561Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "1671a9a4dd649a2da3c778ba9babcf8aa9520cc5ce670005b39e88a526148593"
+        "manifest_sha256": "0abbb8a83dd869ec5d1108b556866ff2be9b1ba60301854ab3abef2ec69e0b5b",
+        "skill_md_sha256": "c1945840a80d01f1626afda5d108e363bffdf81d745b55152371c077cd759e8e"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Apify",
       "version": "0.0.0"
     },

@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQgAKCRB+2Wgv9kKG\n0JLvAP0eAa0cY3hGxtE4AGOdZ2dcEReIyEWlXWvEonZ9tKf3AAEApi+KQyfPdN7R\nvTDBmTqc4I0bcDMhYwK+M4DSGM/g3Qk=\n=JCp/\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEagAKCRB+2Wgv9kKG\n0OqoAQCgu7R5hooamOOzX62wOjhKiBPCkm5xzpS+66xYUQunpQEAoPeoMT1ujwGb\nqemn3e+XmrvwcADfGW6EsA7NMnSFrg0=\n=esLb\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQAw7yF+JqVF//NVfCqm9mVcuOYnP2QX2hSU6PNWjBGueNUPDZv9XMrWzG6\nNkKl2yJWB8mBpRoyvAtdyLN9dTSg0=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:46.399Z",
+      "date": "2026-02-16T20:56:10.933Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "78b6dd36537c5041bd993559dfd935f43b8be1d512ddbefe11b2d848fe247193"
+        "manifest_sha256": "79444fcc1e96a825eb77dbbda86d99294b663002c58939140131e1385a5ba72d",
+        "skill_md_sha256": "30828ffbb9fdf0c6ae580b21c71cd5f9a10b1bfbe7c9c7c42a5940121afc1148"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "RedTeam",
       "version": "0.0.0"
     },

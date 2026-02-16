@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyFwAKCRB+2Wgv9kKG\n0Px7AQC1G6gCYyMYPCMI4CcFUQc940DeQy+1GkjKsrYHrMzfNAEAtWvLwjXKgpRZ\nlRpkoez/35PkOppghABS1RLeoTqyOA4=\n=/3oo\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZwAKCRB+2Wgv9kKG\n0OmHAP9lyIRgihkGOXpqWReE3OkSuKGzCAegtKuQ456CRWbXagD/R3YfV9gdCLF5\naR81WL9h4EehttvncBFRJTpABkAUKwk=\n=NFzr\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQOtziNzQ+jLiNQ2UsCyseVYiAykNNx8ARnvom2t8e/Iku8xAU10hv5cPB4\n+dGWDOG/5HGlFJZ6kI4fwXWQIyTAE=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:31:51.270Z",
+      "date": "2026-02-16T20:56:07.684Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "ed5e66a84c32d4cbe79ca4be7bc20c8a122bb928b04dd4649307918913437ef9"
+        "manifest_sha256": "702aafb89c5f00f8a9989b9d4a895b3c165aba59dcafb6275e99706f9f9dc43c",
+        "skill_md_sha256": "84854041ce9eb1c3ddb9c72df62ad8410f5767c1f2332f9739efb7a0d103de4b"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Documents",
       "version": "0.0.0"
     },

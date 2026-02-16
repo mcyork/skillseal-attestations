@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRAAKCRB+2Wgv9kKG\n0EhmAP47ezVS4GSQEr42MCbT71bSkR8WZPrCJ8/7upQTotu32AEA8FUHM+KoGl5d\nxWThkFZIWhRtrcK9DWw/lJqaU/NPHgQ=\n=nVdx\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEaAAKCRB+2Wgv9kKG\n0JsvAQCI0DBpATe/9HpCnNbgm24HTRxbDph4E1xrpiA+aA5ybgD/XPqNXHxCC+vB\nvOO042YZ1ukZlsbjLoBKCWHiJZLslQo=\n=GcXK\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQM0aRL+S7xc813nKgrw74fEghEIMDTVooIK0x1pVKUHeqduSRX7drK6flZ\niuolQ0DkSlesrAL7S6igO8KX+4KA0=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:48.459Z",
+      "date": "2026-02-16T20:56:08.602Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "c9a0c191d536bd83fd76566baa0045b94dbb531469e137b15e5fc6fed316ea8d"
+        "manifest_sha256": "f35c63ecb7ade8b391a6a6ba4bb8fcc5df275f143f428f72ac419105abd54b8c",
+        "skill_md_sha256": "2defb804b2c64dd5a744fabae28e86acf90b6fb2c093b8c22a6cb3d61a75a53b"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "FirstPrinciples",
       "version": "0.0.0"
     },

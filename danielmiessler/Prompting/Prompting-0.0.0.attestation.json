@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyDQAKCRB+2Wgv9kKG\n0Bb+AP0SX7O1PO7Ocs9fYHBgXJ2ve4ALKKTmy7xUPiO/aX9bYwD/QuN3ID8lDdsT\nfloqV8U20US3ucmB4VPX8UZK/wjTJww=\n=TvwG\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEagAKCRB+2Wgv9kKG\n0G6uAQDOLFn88AMYPeRkro+bjzaFXXBC7M3GTrjd7dQ2vbkI3AEA/+6trpheZj1Z\n4w4NBNWU/jkHZj3Y8JsDpJkQkSQldwY=\n=b7GX\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQL7CjDFHJ9TAeQdnBDJ5V1a/oPczJCTv362Tkz7Ewbcvr5G4C6W1AK5wgr\nJfKqo2lpuI5zOosZH/rZakBdOoTAs=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:31:41.808Z",
+      "date": "2026-02-16T20:56:10.213Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "14b3597b4b5db371a3aa684276125701440d6910d1e17003fcda006227f24de5"
+        "manifest_sha256": "83467bea3d19d4f251eac323d32e813a466b1ec180c72098de9767d5697e0843",
+        "skill_md_sha256": "6352454f06483670435af129c7e97f8a228357c48975c9eff0012484cfc301a6"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Prompting",
       "version": "0.0.0"
     },

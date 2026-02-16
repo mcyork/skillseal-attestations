@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLyEgAKCRB+2Wgv9kKG\n0IAiAP9DS7jroblschHF0fnDqu3xlBlB4NjY7BxPW8dwHba1FQEAoAaHKqu4dFiC\nqNGSNiMk5hK1VF5QoUHdYUMQzVSBmgI=\n=HvFI\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEaQAKCRB+2Wgv9kKG\n0EVvAQDeTTNTYBWSi8kD46lyi/uGXuI+wecpmudjXVt5KsicGgD7Bp7Z5pCaG+x3\njOHDnkCawlueIE9vXU0oYSURZTtD2Q0=\n=qtzn\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQM+05tZlSOws3BNPgOHGKw/d4B+XMLOB1JwgCwFA41vBz1fhQIZcijV32/\n4PNPUndYIif3ezWCbvF5zVJT6SrAY=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:31:46.493Z",
+      "date": "2026-02-16T20:56:09.084Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "ce3efa0257211b4c2152b178b5322692b83e36cb302075acb9e926c4b86247a8"
+        "manifest_sha256": "7f26531a7cef7ff773f6ea5793578d6e162d95e13e57bece0d73a5aa623951f1",
+        "skill_md_sha256": "51d1659360e52f14934183f9c970718852c10122e47cb1104e59593c936ddd3a"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "OSINT",
       "version": "0.0.0"
     },

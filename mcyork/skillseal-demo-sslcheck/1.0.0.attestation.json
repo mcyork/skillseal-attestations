@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDmEAAKCRB+2Wgv9kKG\n0BdyAP9PAhWo+ZQulZlx+oC5Kc8BtfSbxgDVUlvcVcn7cnl+rQEAy/XIymbVKkQr\nf0Lqw2bWBCqTOTwCXQZVEedGee2suQ0=\n=sNIe\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOENQAKCRB+2Wgv9kKG\n0CheAQD0hgiDD5K3SANAnb0LhhmJej6Zh1g3wQ4q1Qycrie3cgD+IHu8++Q8+FlQ\nFjETf+61N2Dh2HpZx6aU4+Z3Zocp4QA=\n=/MTA\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQFwWMZX2ST5nla1Q0MDndEExn5g+7YFBbs3KDznVp0kmwJMYQtgrzv6ybL\nNzcSjQ8m88sZ+Q0yWs4+vOceZ8vwI=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T21:16:00.793Z",
+      "date": "2026-02-16T20:55:17.942Z",
       "scope": "full-review",
-      "statement": "Reviewed all instructions. No malicious patterns."
+      "statement": "Reviewed all instructions. No malicious patterns. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,10 +23,10 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "d5f42e935e4fd832304a3420752095fed434a5b0",
+      "commit": "37581352720bd33a3c20b46967941ed1efb1936a",
       "digests": {
-        "manifest_sha256": "c83f94798562b25c89d334c3d8c300d66994d53f01ba0ce7008fc74cfc4c08cb",
-        "skill_md_sha256": "0264ef854808ee0c503ea3512e8a6b9ac55640d7e553581b00a4b1e7d4ca68be"
+        "manifest_sha256": "db9259845e9734e5a520ea2fcf60525f06ee057c2e4301717353b0f4747f1c29",
+        "skill_md_sha256": "54372a3944427a97e5026b5ce4ef60cc82ce60aec5611d9578682d7eefcf41ef"
       },
       "repository": "github.com/mcyork/skillseal-demo-sslcheck",
       "signed": true,

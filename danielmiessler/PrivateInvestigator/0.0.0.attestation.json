@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiQwAKCRB+2Wgv9kKG\n0AVcAPwLwTCAlYB+uzLvWBwIhi89UvkT5r2dfkTDQSC37RS5kgD/Zu5RqYc0v+8t\nXHYxShT63vvMBo0RiNx0INe0rQ3wCgg=\n=yyZ6\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHQEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEaQAKCRB+2Wgv9kKG\n0KyZAP4u+HmsR1ZGDeWbHhjKTDh0hIstUkMfbzgOeuymrRG7KAD4/dw1rIzqgfBC\nUv/ibwme1BGzdIJVJyp7RWdur4EcBQ==\n=mko1\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQN7Or/yx3uNBX8S+EUq8rxhPvtqylHNBjO0FGs8Yg4D6bR3Ny7Cg4B+Yyc\nExvNwaQVbIB0S7S/QJWUjrhGFx4g0=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:47.076Z",
+      "date": "2026-02-16T20:56:09.965Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "6491be06632e8ddd96edc2ab9a56327a92de7249b04f308114ed361f14a1319c"
+        "manifest_sha256": "f10a01e4a4aee9ad50792f2b622556e04d8e55ed35595cf00d056525c501e0ef",
+        "skill_md_sha256": "9661e0b1c017b417d3d8c0f081cab369ac42a70fff7df59b1f0b376e84ea1fd6"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "PrivateInvestigator",
       "version": "0.0.0"
     },

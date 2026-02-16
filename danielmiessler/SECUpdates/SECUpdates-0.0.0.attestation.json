@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLysgAKCRB+2Wgv9kKG\n0IGlAQDcBOY1YV7sLkgPV69xVn1HYXXHOFKQsT9eLPnXMoYj+AD/WwVSv8/qvgEf\ndy8cYg7ibl0QCRNABjFnLMUha3LVbwQ=\n=2IgM\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEbAAKCRB+2Wgv9kKG\n0LyCAQDnOqRo9L+kcZ10cMU+DYihaAtKKzY1kF9Qq5dgVily5wD/ckU+T1mGFdvU\nUiQwpO1jVizTnw3nzg9h2kclPNbBFAs=\n=gNCG\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQDV5U4wqQTkcrPkbuLSBc37yeqJBzq0s1TcB9IAtBDlSV9R4aqQ/TB2/U+\n8PdoA8VPUXgF1wy2FfQR1ZV8sjTwI=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:34:26.741Z",
+      "date": "2026-02-16T20:56:12.057Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "1292fb19a147840573b5eff7e8368b96f431ef78a4954d888c63a5c3d00577d0"
+        "manifest_sha256": "1e6fb84c2b48b059db8919a4e6c8d98024e546ce480965cb6556cd34bdd54a1a",
+        "skill_md_sha256": "0f66a10b26c2a35b439bb1c5b54408a8c4f7d65c1a54bcfcc432c5948cf41e0e"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "SECUpdates",
       "version": "0.0.0"
     },

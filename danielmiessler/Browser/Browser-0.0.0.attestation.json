@@ -1,0 +1,36 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZgAKCRB+2Wgv9kKG\n0GxkAQC7v31poYpXNFc4BLHpCCVmUbu/61bHFTvKdmGwUZlarwD+JFi0vWqIf9Fp\nUiGdLM6N6ushRRquRNe55rsqmQhfDQs=\n=FSHX\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQF4WRDhXn/ratWCHhIANQl74Ah9psCRakVSFgOcd+MSz0IsJJUCxLHx9QK\nDm1LF7bWkNdVFjcqDR6k7zuEWyGgs=\n-----END SSH SIGNATURE-----"
+    }
+  ],
+  "statement": {
+    "attestation": {
+      "date": "2026-02-16T20:56:06.484Z",
+      "scope": "full-review",
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
+    },
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "digests": {
+        "manifest_sha256": "d7891fd716838c4c3c40a289060154816c7eaed24e084fbf5cffedde9b481dc2",
+        "skill_md_sha256": "bfe82e22629b02724f17b7dba19fc65d9d9b56ab9fed6bad0eeed0d4f077bae9"
+      },
+      "signed": true,
+      "skill": "Browser",
+      "version": "2.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}

@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZLypAAKCRB+2Wgv9kKG\n0P2tAP9RBGDkSmy4m7IztoCd7yV32Z9akAuD9LuP93u/8qwVZgEAotZjcbbpM+4/\nvHRAPd6wCkYIzj8LWyh3WIMbpzsI0Qk=\n=dROW\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZwAKCRB+2Wgv9kKG\n0DRTAP4smaXkU1AkTW2F/meS13Xa9WtHqMct0i0p13cTmH7HQgD/eHX6NRAYqCgM\nuCdOejwduvQOCKXByFdJbEug7BEsOAg=\n=NSL8\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQJwlHRi34dp2MJA7hYHET1JUq4NC5LCLqNMnVHkcOH43KfRXETSZ70XjxS\nazsMCaNLIo89BKnRDm1qfMmc24MwA=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T10:34:12.433Z",
+      "date": "2026-02-16T20:56:07.232Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "2440efab2c9257d5b9587b422b2531b8beccd002935d15c3df5eb5329e263aa5"
+        "manifest_sha256": "29b0b7ba44c538787d37ee01fe42279b9376aa3401bbe7648d4ffcf2507f05c2",
+        "skill_md_sha256": "b6089a3f31cd1b2ac710ede210f9e31b1e582238566a835ef81fdf3f502c8fc1"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "CreateCLI",
       "version": "0.0.0"
     },

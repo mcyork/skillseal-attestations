@@ -1,12 +1,21 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRwAKCRB+2Wgv9kKG\n0GmVAP9RoXIFpFhVVdKu726EteRcs95qnZZPuzGzhb/+lAXOqgD+Pb5jd4t+vtm5\nBr5Nd5wYwe4f3DFT27NBLq3415GkuQ0=\n=TJSX\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZQAKCRB+2Wgv9kKG\n0BWWAQCBm6muRJGw4XASrLcmncYwG7lawhXmgKpGExQn1gjWVwD/TLxHumm4fdGz\ntlXm3hTciLYdaef3B3g/7bZDmr56vg4=\n=fvuh\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQLvGdzg5s1+wgn8HLy7NkqIabtzzjiImwPuzLovICO4l/CukzPxcfSs7If\nV0YP6keQSWcYJl19jiYIEVnNJebQQ=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:51.488Z",
+      "date": "2026-02-16T20:56:05.561Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "Reviewed. No issues found. Multi-key re-attestation."
     },
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
@@ -14,13 +23,11 @@
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
       "digests": {
-        "manifest_sha256": null,
-        "skill_md_sha256": "4f5cf9c6f7ac9ce55283af2a133a886a6aafd6a4b6a431e2cd9bf3e48e1204b8"
+        "manifest_sha256": "0abbb8a83dd869ec5d1108b556866ff2be9b1ba60301854ab3abef2ec69e0b5b",
+        "skill_md_sha256": "c1945840a80d01f1626afda5d108e363bffdf81d745b55152371c077cd759e8e"
       },
-      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
-      "signed": false,
+      "signed": true,
       "skill": "Apify",
       "version": "0.0.0"
     },
