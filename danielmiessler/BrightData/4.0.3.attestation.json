@@ -1,0 +1,39 @@
+{
+  "format": "skillseal-attestation-bundle/v1",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaaaAAgAKCRB+2Wgv9kKG\n0OXuAP9fcW6grYZ8eFmerRN0qUVghbYUgy5ObG83FGZrA0aXfgD/S/qfh6NXNhzd\nUZfZ/ofUsW1zgrqMoOX6zLQg9HMhmg0=\n=d7QV\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQADNydhabgh6rWt6CdQAyV+TaYQ/cbaYngt0+5Xd2HzzDqhGMX02GzUkmM\nIYsCavwvuLWORnf+rmnu3cII5kqwo=\n-----END SSH SIGNATURE-----"
+    }
+  ],
+  "statement": {
+    "attestation": {
+      "date": "2026-03-03T06:30:26.150Z",
+      "scope": "full-review",
+      "statement": "PAI v4.0.3 skill review — verified instructions, no injection or exfiltration patterns, functionality matches description."
+    },
+    "created_at": "2026-03-03T06:30:26.150Z",
+    "reviewer": {
+      "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
+      "github": "mcyork",
+      "name": "Ian McCutcheon"
+    },
+    "subject": {
+      "commit": "2306de68a998c346fa1ae99c06d3e5125b1df9d7",
+      "digests": {
+        "manifest_sha256": null,
+        "skill_md_sha256": "cd50f996f4572ec39052a8c90fe9e35a1d467e91c9a2715ac8ffaad9054bb141"
+      },
+      "repository": "github.com/danielmiessler/Personal_AI_Infrastructure",
+      "signed": false,
+      "skill": "BrightData",
+      "version": "0.0.0"
+    },
+    "type": "https://skillseal.dev/attestation/review/v1"
+  }
+}

@@ -1,20 +1,30 @@
 {
   "format": "skillseal-attestation-bundle/v1",
-  "schema_version": "0.1.0",
-  "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZDiRAAKCRB+2Wgv9kKG\n0M25AQCU23KLV7GdsChqHExUVe8oAj06ykNtr6zr83Kc6vOUjwD+KhAxEAiYb6lN\nwt7qpMcyDB3cvQxxMLlLoyV8h+lzJAk=\n=irEl\n-----END PGP SIGNATURE-----",
+  "schema_version": "0.2.0",
+  "signatures": [
+    {
+      "type": "gpg",
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZRHYQAKCRB+2Wgv9kKG\n0K+CAPsEMI+qSn5+0Li9dHFEb8Txo99gI+rdI+Lzu2VFLMyUzwEA9vFQqAi3MT04\n8ROJkjBGtHP3Z1blWNjU3Bh8vNxmBwc=\n=yZP0\n-----END PGP SIGNATURE-----"
+    },
+    {
+      "type": "ssh",
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQJ8QWr9gHIhK1HAqJlZpPSEYFc9Danv7r9r4NTYlSGP4Wt+cQLWxFuqA0o\n553cz1GBb/M1ty/MMWxYk6EEIXqgs=\n-----END SSH SIGNATURE-----"
+    }
+  ],
   "statement": {
     "attestation": {
-      "date": "2026-02-14T20:59:48.916Z",
+      "date": "2026-02-17T10:48:01.080Z",
       "scope": "full-review",
-      "statement": "Reviewed PAI v2.5.0 skill. No malicious patterns found."
+      "statement": "PAI v3.0 skill review — verified instructions, no injection or exfiltration patterns."
     },
+    "created_at": "2026-02-17T10:48:01.080Z",
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
       "github": "mcyork",
       "name": "Ian McCutcheon"
     },
     "subject": {
-      "commit": "117792d59569989fc764e43c229a5d1cb91aed05",
+      "commit": "e7a1b649b50399f287a77000190c5d81bc8241c0",
       "digests": {
         "manifest_sha256": null,
         "skill_md_sha256": "94f8d5b1a5ed6b43f3e7d364ba46978912a33f4e62acab387170cc32b41161c7"

@@ -4,19 +4,20 @@
   "signatures": [
     {
       "type": "gpg",
-      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZOEZwAKCRB+2Wgv9kKG\n0J5TAPwKkAXglCL98cmRV1waSof/10Qa7D3iCdOP8wiyao5+HAD/RdlZn14oBBp5\n4R4mUgJt1pAZQvvYTBthzIz/oEh3zgo=\n=wMuK\n-----END PGP SIGNATURE-----"
+      "value": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRwl84e9U4ICP04VUJ+2Wgv9kKG0AUCaZRGSgAKCRB+2Wgv9kKG\n0Be4AQCtHLSseWH5H/BSFxLcw9gQ+j9au8klVNCPV/l+VVukrgD/X2Xm6wGXNspY\nIgeq81Jh8EwcnoHqJQRRN/drxsq8pwc=\n=Yqua\n-----END PGP SIGNATURE-----"
     },
     {
       "type": "ssh",
-      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQBflgZZcWENNSATxf85L6sS8huBziEsNzQDlPQFw+IeXDGiyREWEkQmUNL\nqepSM5wEScwzkdA6AEf5ts1BXtxw8=\n-----END SSH SIGNATURE-----"
+      "value": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgC30J7T19CbapHa4YhZcxuaY8u5\nCOxkN02K3L+2tigJoAAAAJc2tpbGxzZWFsAAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1l\nZDI1NTE5AAAAQOFDWEGEJlSH7BqzTwptYgTL+vhNnuzwAlGLVB2t0Kw5K3Cbr9swBZOJff\not1u979pfH+tvPGiyPqZEgqI4AVgA=\n-----END SSH SIGNATURE-----"
     }
   ],
   "statement": {
     "attestation": {
-      "date": "2026-02-16T20:56:06.999Z",
+      "date": "2026-02-17T10:43:22.563Z",
       "scope": "full-review",
-      "statement": "Reviewed. No issues found. Multi-key re-attestation."
+      "statement": "PAI v3.0 skill review — verified instructions, no injection or exfiltration patterns, functionality matches description."
     },
+    "created_at": "2026-02-17T10:43:22.563Z",
     "reviewer": {
       "fingerprint": "7097CE1EF54E0808FD3855427ED9682FF64286D0",
       "github": "mcyork",
